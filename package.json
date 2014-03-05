@@ -1,0 +1,34 @@
+{
+  "name": "xlsx-export",
+  "version": "0.0.1",
+  "description": "Create .xlsx file from a template",
+  "main": "./lib/index",
+  "author": {
+    "name": "Alex Werner"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/Alex-Werner/XLS-Export.git"
+  },
+  "bugs": {
+    "url": "http://github.com/Alex-Werner/XLS-Export/issues"
+  },
+  "licenses": [ {
+    "type": "MIT",
+    "url": "http://github.com/Alex-Werner/XLS-Export/raw/master/LICENSE"
+  } ],
+  "dependencies": {
+    "elementtree": "0.1.5",
+    "node-zip": "1.0.1"
+  },
+  "devDependencies": {
+    "buster": "0.7.6",
+    "grunt": "~0.4.1",
+    "grunt-buster": "~0.2.1"
+  },
+  "scripts": {
+    "test": "./node_modules/buster/bin/buster-test"
+  },
+  "readme": "",
+  "readmeFilename": "README.md"
+}
